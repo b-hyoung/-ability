@@ -1,0 +1,67 @@
+<style>
+    body{
+      background-color: white;
+    }
+   
+    #box textarea{
+      margin-top: -50px;
+      width: 1500px;
+      height: 80px;
+      border : 1px solid #a4a9af;
+      padding-top: 3.5rem;
+      padding-left: 30px;
+      border-radius: 0.5rem;
+      resize: none;
+    }
+    #content textarea{
+      width: 1500px;
+      height: 500px;
+      border : 1px solid #a4a9af;
+      padding-top: 3.5rem;
+      padding-left: 30px;
+      border-radius: 0.5rem;
+      resize: none;
+    }
+    #food{
+      width: 110px;
+      height: 40px;
+      border : 1px solid #a4a9af;
+      border-radius: 0.3rem;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+   
+    button{
+      width: 75px;
+      height: 30px;
+      margin-top: 15px;
+      border-radius: 0.3rem;
+      border : 1px solid #a4a9af;
+    }
+    #button1{
+      background-color: rgb(114, 114, 114);
+    }
+    #button2{
+      position: absolute;
+      right: 300px;
+      background-color: rgb(68, 108, 218);
+    }
+  
+  </style>
+  <body>
+      <div id="box">
+        <textarea cols="30" rows="5" placeholder="내용을 입력해주세요"></textarea>
+      </div>
+      <div id="select_box">
+        <select name="DropDown" id="food">
+          <option value="banana">DropDown</option>
+          <option value="떡볶이">떡볶이</option>
+          <option value="나도">나도배고파</option>
+        </select>
+      </div>
+      <div id="content">
+        <textarea placeholder="내용을 입력해주실래요?"></textarea>
+      </div>
+        <button type="submit" id="button1">Button</button>
+        <button type="submit" id="button2">Button</button>
+    </body>
